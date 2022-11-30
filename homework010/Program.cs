@@ -6,3 +6,7 @@
 918 -> 1
 */
 
+Console.WriteLine("Введите трехзначное число");
+int number = int.Parse(Console.ReadLine());
+int secondDidit = number % 100 / 10; //2
+Console.WriteLine($"второе число {secondDidit}");
